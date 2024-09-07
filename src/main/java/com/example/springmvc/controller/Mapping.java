@@ -1,6 +1,9 @@
 package com.example.springmvc.controller;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import java.awt.*;
 
 @RestController
 @RequestMapping("mapping")
@@ -29,5 +32,9 @@ public class Mapping {
     @PostMapping(headers = {"X-city","Content-Type"})
     public String hellow6(@RequestHeader("X-city") String MyCustomHeader,@RequestHeader("Content-Type") String contect){
         return "My Custom Header is "+ MyCustomHeader +" and my context is "+contect;
+    }
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)    //using comsumes we can give the mime type of client
+    public String helllowMapping(){
+       return "Json mime type handle";
     }
 }
