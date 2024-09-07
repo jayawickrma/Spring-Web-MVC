@@ -74,6 +74,7 @@
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springMvc_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="springMvc:war exploded">
@@ -84,6 +85,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="809abdf6-10e9-469f-a7eb-1939f7588e79" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -172,7 +174,7 @@
       <workItem from="1725092767088" duration="9332000" />
       <workItem from="1725120327053" duration="174000" />
       <workItem from="1725463898345" duration="1770000" />
-      <workItem from="1725474720703" duration="5307000" />
+      <workItem from="1725474720703" duration="8934000" />
     </task>
     <task id="LOCAL-00001" summary="mapping spec">
       <option name="closed" value="true" />
@@ -214,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725682798454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mapping spec">
+      <option name="closed" value="true" />
+      <created>1725683257863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725683257863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
