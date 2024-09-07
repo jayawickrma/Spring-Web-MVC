@@ -26,4 +26,8 @@ public class Mapping {
     public String hellowMapping(@RequestParam("name")String myname ,@RequestParam("age")int myage){
         return "my name is "+ myname +" and my age is "+ myage;
     }
+    @PostMapping(headers = "X-city")
+    public String hellow6(@RequestHeader("X-city") String MyCustomHeader){
+        return "My Custom Header is "+ MyCustomHeader;
+    }
 }
