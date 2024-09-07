@@ -6,6 +6,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @ComponentScan(basePackages = "com.example.springmvc")
-@EnableWebMvc
+@EnableWebMvc   //application layer ekt direct sambanda wena nisa meka magin controller wlata direct full access hambenawa web mvc facilities
 public class webAppConfig{
 }
