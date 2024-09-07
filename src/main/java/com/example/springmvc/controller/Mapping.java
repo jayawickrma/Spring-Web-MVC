@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class Mapping {
     @GetMapping
     public String hellow() {
-      return "hello hello pakaypo";
+        return "hello hello pakaypo";
     }
 //    @GetMapping("hello??")
 //    public String hellowMapping() {
